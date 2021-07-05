@@ -46,3 +46,57 @@ header {
   font-size: 16px;
   text-decoration: none;
 }
+
+/*-------- Header section done -------*/
+
+.intro-section {
+  padding: 20px 0px;
+  border-bottom: 1px solid #000;
+}
+
+.inline .box {
+  width: 50%;
+}
+
+#welcome {
+  color: #058df7;
+}
+
+.intro-section .details h1 {
+  margin-top: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #373f4a;
+}
+
+.intro-section .details p {
+  margin: 25px 0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #373f4a;
+  margin-bottom: 30px;
+}
+
+.intro-section .details a {
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background: linear-gradient(90deg, #13b7fb, #099af9, #0286f6);
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.intro-section .img-box {
+  width: 40%;
+  margin: 0px 0px 0px auto;
+}
+
+.intro-section .img-box img {
+  width: 100%;
+}
+
+/* -------Intro section done-------- */
