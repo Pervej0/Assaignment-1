@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inline {
+  display: flex;
+}
+
+header {
+  padding: 15px 0px;
+  justify-content: space-between;
+}
+
+.logo .brand-name {
+  color: rgb(92, 76, 76);
+}
