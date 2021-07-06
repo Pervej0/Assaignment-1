@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #f4f6f7;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -109,7 +113,7 @@ header {
 
 .about-section .img-box {
   width: 30%;
-  margin: 0px auto 0px 0px;
+  margin: 0 auto;
 }
 
 .about-section .img-box img {
@@ -130,7 +134,6 @@ header {
   font-weight: 600;
   font-size: 2rem;
   color: #373f4a;
-  text-align: justify;
 }
 
 .about-section .details p {
@@ -140,6 +143,89 @@ header {
   font-size: 15px;
   color: #373f4a;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 /* ----------About section done -----------*/
+
+.recipies-section {
+  padding: 40px 0px;
+}
+
+.recipies-section .title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.recipies-section .title hr {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.recipies-section .inline .food-item {
+  width: 30%;
+  margin: 0px 20px;
+  box-shadow: 3px 3px 5px 0.5 #252525;
+  padding: 20px 30px;
+  box-shadow: 4px 2px 10px 5px rgba(37, 37, 37, 0.44);
+  border-radius: 15px;
+}
+
+.recipies-section .inline .food-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.recipies-section .title h1,
+.recipies-section .food-item .food-name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #373f4a;
+  padding-bottom: 5px;
+}
+
+.recipies-section .food-item .food-name {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: #252525;
+}
+
+.recipies-section .title p,
+.recipies-section .food-item .food-descreption {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #373f4a;
+  margin: 20px 0px 30px 0px;
+}
+
+.recipies-section .food-item .food-descreption {
+  margin-top: 7px;
+}
+
+/*----------- Recipies section done --------------*/
+
+.social-section {
+  padding: 20px 0px;
+}
+
+.social-section .inline .item {
+  width: 33%;
+  text-align: center;
+}
+
+.social-section .inline .item h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #373f4a;
+}
+
+.social-section .inline .item p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #373f4a;
+  margin: 0px 0px 30px 0px;
+}
